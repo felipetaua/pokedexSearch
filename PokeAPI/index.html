@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pokédex</title>
+</head>
+<body>
+    <div class="painel ">
+        
+        <button class="botao" onclick="voltar()"> <i class="fa-solid fa-arrow-left"></i> </button>
+        <input type="text" id="entrada" placeholder="Digite um pokémon...">
+        <button class="botao " onclick="buscar()"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+        <button class="botao" onclick="avancar()"> <i class="fa-solid fa-arrow-right"></i> </button>
+
+        <div id="tela" data-tilt data-tilt-max="1" data-tilt-speed="2" data-tilt-perspective="100"></div>
+        <br>
+        <h2>Biblioteca de Pokémons</h2>
+        <div class="bibliotecaPokemon">
+            <div id="todosPokemons"></div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.js" integrity="sha512-31I8S0k9PCZb3or2whlgM88rgY9mvkSXTxIQMXMkc8N79b29nKc+MN8qVVJT0vE5D8uy1sVuNWrkAt6zEh+PZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
