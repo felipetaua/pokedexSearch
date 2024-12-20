@@ -29,4 +29,4 @@ Este é um projeto de Pokédex interativa, desenvolvido utilizando HTML, CSS e J
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/felipetaua/pokedexSearch.git
